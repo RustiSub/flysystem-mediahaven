@@ -1,0 +1,34 @@
+{
+    "name": "league/flysystem-mediahaven",
+    "description": "Flysystem adapter for MediaHaven",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wouter Pirotte",
+            "email": "wouter.pirotte@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "league/flysystem": "~1.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "League\\Flysystem\\MediaHaven\\": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "min-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
