@@ -1,5 +1,5 @@
 {
-    "name": "league/flysystem-mediahaven",
+    "name": "RustiSub/flysystem-mediahaven",
     "description": "Flysystem adapter for MediaHaven",
     "license": "MIT",
     "authors": [
